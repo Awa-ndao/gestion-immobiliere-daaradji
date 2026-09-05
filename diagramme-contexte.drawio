@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
-  <diagram name="Page-1" id="d-WrwlL29GBfqcBNLJc6">
-    <mxGraphModel dx="968" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Diagramme-Contexte" id="d-WrwlL29GBfqcBNLJc6">
+    <mxGraphModel dx="911" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,11 +52,130 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="r_rE0qe74eC0VvSOwkFl" name="Page-2">
+  <diagram id="r_rE0qe74eC0VvSOwkFl" name="UseCase-Proprietaire">
     <mxGraphModel dx="774" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
+          <mxGeometry height="560" width="420" x="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Se connecter" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Gérer les employés" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir tableau de bord" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir tous les biens" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir toutes les finances" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Valider les salaires" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Consulter les logs" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Suspendre un compte" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir tous les clients" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Générer des rapports" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Exporter les données" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Gérer les mandats" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Réinitialiser mot de passe" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir statistiques globales" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="293.6" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" edge="1" parent="1" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="301.4" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="309.20000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="317" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="324.79999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="332.6" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="340.4" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="305.33333333333337" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="312.88666666666666" as="sourcePoint" />
+            <mxPoint x="471.0494091175392" y="185.00305973112935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="314" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="318.33333333333337" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" edge="1" parent="1" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="322.66666666666663" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="327" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" edge="1" parent="1" target="17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="331.33333333333337" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWUSdAQPbdUFeS4QT87u-31" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Propriétaire&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="275" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
