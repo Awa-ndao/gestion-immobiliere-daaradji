@@ -377,7 +377,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MAmdj4Bn61FR30ACiUAT-35" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;strokeColor=#82b366;" value="&lt;span style=&quot;font-weight: 700; white-space: normal;&quot;&gt;Administrateur&lt;/span&gt;" vertex="1">
-          <mxGeometry height="70" width="40" x="50" y="260" as="geometry" />
+          <mxGeometry height="90" width="60" x="50" y="260" as="geometry" />
         </mxCell>
         <mxCell id="MAmdj4Bn61FR30ACiUAT-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Modifier infos employé&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="170" x="390" y="420" as="geometry" />
