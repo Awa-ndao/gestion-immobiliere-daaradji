@@ -187,6 +187,7 @@
         </mxCell>
         <mxCell id="37" edge="1" parent="1" target="17">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
             <mxPoint x="130" y="358.3544303797469" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
