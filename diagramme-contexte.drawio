@@ -635,7 +635,7 @@
             <mxPoint x="80" y="189.1044776119403" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mVIHvsHPpaG37Z577KeZ-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;font-weight: 700; white-space: normal;&quot;&gt;Réceptionniste&lt;/span&gt;" vertex="1">
+        <mxCell id="mVIHvsHPpaG37Z577KeZ-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-weight: 700; white-space: normal;&quot;&gt;Réceptionniste&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="50" x="20" y="140" as="geometry" />
         </mxCell>
       </root>
