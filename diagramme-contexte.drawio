@@ -389,15 +389,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GCWGf3hlbHPhW_3cAvmf" name="UseCase Agent Immobilier">
-    <mxGraphModel dx="774" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="774" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
-          <mxGeometry height="540" width="440" x="120" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3" parent="1" style="shape=mxgraph.uml.actor;whiteSpace=wrap;html=1;     fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;     verticalLabelPosition=bottom;verticalAlign=top;" value="Agent Immobilier" vertex="1">
-          <mxGeometry height="70" width="50" x="30" y="240" as="geometry" />
+          <mxGeometry height="410" width="370" x="110" y="10" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Se connecter" vertex="1">
           <mxGeometry height="40" width="150" x="130" y="55" as="geometry" />
@@ -418,58 +415,87 @@
           <mxGeometry height="40" width="150" x="130" y="330" as="geometry" />
         </mxCell>
         <mxCell id="10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Gérer ses constructions" vertex="1">
-          <mxGeometry height="40" width="150" x="130" y="385" as="geometry" />
+          <mxGeometry height="40" width="150" x="310" y="55" as="geometry" />
         </mxCell>
         <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Gérer ses mandats" vertex="1">
-          <mxGeometry height="40" width="150" x="130" y="440" as="geometry" />
+          <mxGeometry height="40" width="150" x="315" y="110" as="geometry" />
         </mxCell>
         <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Faire une recherche" vertex="1">
-          <mxGeometry height="40" width="160" x="310" y="55" as="geometry" />
-        </mxCell>
-        <mxCell id="13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir ses statistiques" vertex="1">
-          <mxGeometry height="40" width="160" x="310" y="110" as="geometry" />
-        </mxCell>
-        <mxCell id="14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Enregistrer propriétaire tiers" vertex="1">
           <mxGeometry height="40" width="160" x="310" y="165" as="geometry" />
         </mxCell>
-        <mxCell id="15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir tableau de bord partiel" vertex="1">
+        <mxCell id="13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir ses statistiques" vertex="1">
           <mxGeometry height="40" width="160" x="310" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="16" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Enregistrer propriétaire tiers" vertex="1">
+          <mxGeometry height="40" width="160" x="310" y="275" as="geometry" />
         </mxCell>
-        <mxCell id="17" edge="1" parent="1" source="3" target="5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir tableau de bord partiel" vertex="1">
+          <mxGeometry height="40" width="160" x="310" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="18" edge="1" parent="1" source="3" target="6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="16" edge="1" parent="1" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="241.66666666666663" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="19" edge="1" parent="1" source="3" target="7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="17" edge="1" parent="1" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="250.83333333333337" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="20" edge="1" parent="1" source="3" target="8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="18" edge="1" parent="1" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="260" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="21" edge="1" parent="1" source="3" target="9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="19" edge="1" parent="1" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="269.16666666666663" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="22" edge="1" parent="1" source="3" target="10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="20" edge="1" parent="1" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="278.33333333333337" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="23" edge="1" parent="1" source="3" target="11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="21" edge="1" parent="1" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="287.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="24" edge="1" parent="1" source="3" target="12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="22" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="256.53848484848487" as="sourcePoint" />
+            <mxPoint x="354.7946039300473" y="89.99630064845627" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="25" edge="1" parent="1" source="3" target="13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="23" edge="1" parent="1" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="264.179104477612" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="26" edge="1" parent="1" source="3" target="14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="24" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77.25" y="264.3235820895523" as="sourcePoint" />
+            <mxPoint x="332.7515443280304" y="195.6813761506783" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="27" edge="1" parent="1" source="3" target="15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="25" edge="1" parent="1" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="272.3880597014926" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="276.4925373134329" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="280.5970149253732" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfLiqk4qgOh5h6Cx33XR-27" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-weight: 700; white-space: normal;&quot;&gt;Agent Immobilier&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="50" x="20" y="185" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
