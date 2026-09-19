@@ -1173,11 +1173,6 @@
             <mxPoint x="80" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dsCS8RoCLdlQwiB5fkwh-32" connectable="0" parent="10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
-          <mxGeometry relative="1" x="-0.1536" y="-7" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="11" edge="1" parent="1" style="endArrow=none;dashed=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="285" y="70" as="sourcePoint" />
@@ -1216,6 +1211,7 @@
         </mxCell>
         <mxCell id="23" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="4. Envoyer données au contrôleur">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="285" y="240" as="sourcePoint" />
             <mxPoint x="485" y="240" as="targetPoint" />
           </mxGeometry>
