@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="8">
+<mxfile host="app.diagrams.net" pages="9">
   <diagram name="Diagramme-Contexte" id="d-WrwlL29GBfqcBNLJc6">
     <mxGraphModel dx="911" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1145,6 +1145,133 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="545" as="sourcePoint" />
             <mxPoint x="685" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ujxMtCqVIMN7rBlX7YsV" name="Sequence-Location">
+    <mxGraphModel dx="774" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=mxgraph.uml.actor;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;verticalLabelPosition=bottom;verticalAlign=top;" value="Agent" vertex="1">
+          <mxGeometry height="60" width="40" x="60" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Interface Web" vertex="1">
+          <mxGeometry height="40" width="110" x="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Contrôleur" vertex="1">
+          <mxGeometry height="40" width="110" x="430" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Base de Données" vertex="1">
+          <mxGeometry height="40" width="110" x="630" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" style="endArrow=none;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="80" as="sourcePoint" />
+            <mxPoint x="80" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsCS8RoCLdlQwiB5fkwh-32" connectable="0" parent="10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.1536" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" style="endArrow=none;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="70" as="sourcePoint" />
+            <mxPoint x="285" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" style="endArrow=none;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="70" as="sourcePoint" />
+            <mxPoint x="485" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" style="endArrow=none;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="70" as="sourcePoint" />
+            <mxPoint x="685" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="1. Ouvrir formulaire de location">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+            <mxPoint x="285" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;" value="2. Afficher formulaire">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="150" as="sourcePoint" />
+            <mxPoint x="80" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="3. Saisir infos location (client, bien, loyer, caution)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="200" as="sourcePoint" />
+            <mxPoint x="285" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="4. Envoyer données au contrôleur">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="240" as="sourcePoint" />
+            <mxPoint x="485" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="5. Vérifier disponibilité du bien">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="280" as="sourcePoint" />
+            <mxPoint x="685" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;" value="6. Retourner statut du bien">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="320" as="sourcePoint" />
+            <mxPoint x="485" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="7. Enregistrer contrat de location">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="360" as="sourcePoint" />
+            <mxPoint x="685" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="8. Mettre à jour statut bien → Loué">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="400" as="sourcePoint" />
+            <mxPoint x="685" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="9. Générer facture caution">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="440" as="sourcePoint" />
+            <mxPoint x="685" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="10. Générer contrat PDF automatiquement">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="480" as="sourcePoint" />
+            <mxPoint x="685" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;" value="11. Confirmer enregistrement">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="520" as="sourcePoint" />
+            <mxPoint x="285" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;" value="12. Afficher confirmation + contrat PDF">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="560" as="sourcePoint" />
+            <mxPoint x="80" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="13. Enregistrer log action">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="610" as="sourcePoint" />
+            <mxPoint x="685" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
