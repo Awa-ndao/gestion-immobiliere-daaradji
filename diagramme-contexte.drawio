@@ -691,7 +691,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yq6LaFazgs8AmBk_65EH" name="Diagramme-Classes">
-    <mxGraphModel dx="2018" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1116,20 +1116,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="db6mWRSJpY8kWepL-m8Y" name="Sequence-Authentification">
-    <mxGraphModel dx="911" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="shape=mxgraph.uml.actor;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;verticalLabelPosition=bottom;verticalAlign=top;" value="Utilisateur" vertex="1">
-          <mxGeometry height="60" width="40" x="60" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Interface Web" vertex="1">
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Interface Web&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="110" x="230" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Contrôleur" vertex="1">
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Contrôleur&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="110" x="430" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Base de Données" vertex="1">
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Base de Données&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="110" x="630" y="30" as="geometry" />
         </mxCell>
         <mxCell id="10" edge="1" parent="1" style="endArrow=none;dashed=1;" value="">
@@ -1156,71 +1153,76 @@
             <mxPoint x="685" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="20" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="1. Ouvrir page de connexion">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="20" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=14;" value="1. Ouvrir page de connexion">
+          <mxGeometry relative="1" x="-0.0244" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="80" y="110" as="sourcePoint" />
             <mxPoint x="285" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="21" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;" value="2. Afficher formulaire">
+        <mxCell id="21" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=14;" value="2. Afficher formulaire">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="285" y="150" as="sourcePoint" />
             <mxPoint x="80" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="22" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="3. Saisir email + mot de passe">
+        <mxCell id="22" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=14;" value="3. Saisir email +&#xa; mot de passe">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="200" as="sourcePoint" />
             <mxPoint x="285" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="23" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="4. Envoyer données">
+        <mxCell id="23" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=14;" value="4. Envoyer données">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="285" y="240" as="sourcePoint" />
             <mxPoint x="485" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="24" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="5. Vérifier email + mot de passe">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="24" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=14;" value="5. Vérifier email + &#xa;mot de passe">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="485" y="280" as="sourcePoint" />
             <mxPoint x="685" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="25" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;" value="6. Retourner résultat">
+        <mxCell id="25" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=14;" value="6. Retourner résultat">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="685" y="320" as="sourcePoint" />
             <mxPoint x="485" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="26" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;strokeColor=#00AA00;fontColor=#00AA00;" value="7a. [OK] Créer session selon rôle">
+        <mxCell id="26" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=14;strokeColor=#00AA00;fontColor=#00AA00;" value="7a. [OK] Créer session &#xa;selon rôle">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="370" as="sourcePoint" />
             <mxPoint x="285" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="27" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;strokeColor=#00AA00;fontColor=#00AA00;" value="8a. [OK] Rediriger vers tableau de bord">
+        <mxCell id="27" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=14;strokeColor=#00AA00;fontColor=#00AA00;" value="8a. [OK] Rediriger vers&#xa; tableau de bord">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="285" y="410" as="sourcePoint" />
             <mxPoint x="80" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="28" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=11;strokeColor=#FF0000;fontColor=#FF0000;" value="7b. [ERREUR] Afficher message d&#39;erreur">
+        <mxCell id="28" edge="1" parent="1" style="endArrow=block;endFill=1;dashed=1;fontSize=14;strokeColor=#FF0000;fontColor=#FF0000;" value="7b. [ERREUR] Afficher message d&#39;erreur">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="460" as="sourcePoint" />
             <mxPoint x="80" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="29" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;strokeColor=#FF0000;fontColor=#FF0000;" value="8b. [ERREUR] Bloquer compte après 5 tentatives">
+        <mxCell id="29" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=14;strokeColor=#FF0000;fontColor=#FF0000;" value="8b. [ERREUR] Bloquer&#xa; compte&#xa; après 5 tentatives">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="500" as="sourcePoint" />
             <mxPoint x="685" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="30" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=11;" value="9. Enregistrer log connexion">
+        <mxCell id="30" edge="1" parent="1" style="endArrow=block;endFill=1;fontSize=14;" value="9. Enregistrer log connexion">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="485" y="545" as="sourcePoint" />
             <mxPoint x="685" y="545" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsDv-N2zivO-pkAzKgG9-31" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" value="&lt;span style=&quot;font-weight: 700; white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Utilisateur&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
