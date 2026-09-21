@@ -623,7 +623,7 @@
           <mxGeometry height="40" width="150" x="130" y="220" as="geometry" />
         </mxCell>
         <mxCell id="8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Voir les biens disponibles" vertex="1">
-          <mxGeometry height="40" width="150" x="130" y="275" as="geometry" />
+          <mxGeometry height="40" width="150" x="325" y="275" as="geometry" />
         </mxCell>
         <mxCell id="9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Faire une recherche de biens" vertex="1">
           <mxGeometry height="40" width="160" x="320" y="55" as="geometry" />
@@ -632,10 +632,10 @@
           <mxGeometry height="40" width="160" x="320" y="130" as="geometry" />
         </mxCell>
         <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Consulter fiche client" vertex="1">
-          <mxGeometry height="40" width="160" x="320" y="190" as="geometry" />
+          <mxGeometry height="40" width="160" x="130" y="275" as="geometry" />
         </mxCell>
         <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Imprimer liste des biens" vertex="1">
-          <mxGeometry height="40" width="160" x="320" y="260" as="geometry" />
+          <mxGeometry height="40" width="160" x="320" y="205" as="geometry" />
         </mxCell>
         <mxCell id="13" edge="1" parent="1" target="4">
           <mxGeometry relative="1" as="geometry">
@@ -672,12 +672,6 @@
             <mxPoint x="80" y="180.8955223880597" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="20" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="200" as="sourcePoint" />
-            <mxPoint x="330" y="205" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="21" edge="1" parent="1" target="12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="189.1044776119403" as="sourcePoint" />
@@ -685,6 +679,13 @@
         </mxCell>
         <mxCell id="mVIHvsHPpaG37Z577KeZ-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-weight: 700; white-space: normal;&quot;&gt;Réceptionniste&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="50" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3FtdWhvP88wHCP4kpDW3-21" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.242;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" target="11" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="80" y="212" as="sourcePoint" />
+            <mxPoint x="186.1691627735113" y="268.87633720009535" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
