@@ -475,8 +475,8 @@
         </mxCell>
         <mxCell id="24" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="77.25" y="264.3235820895523" as="sourcePoint" />
-            <mxPoint x="332.7515443280304" y="195.6813761506783" as="targetPoint" />
+            <mxPoint x="83.63" y="262.1635820895523" as="sourcePoint" />
+            <mxPoint x="326.38" y="197.84" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="25" edge="1" parent="1" target="13">
@@ -603,7 +603,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HaVHgdUSPSFt8yrfVb4x" name="UseCase Réceptionniste">
-    <mxGraphModel dx="774" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
