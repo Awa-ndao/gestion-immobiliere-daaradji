@@ -240,11 +240,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jARSLn5tRU8ErMCUu9wK" name="UseCase Administrateur">
-    <mxGraphModel dx="911" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="968" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;strokeColor=#82b366;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
           <mxGeometry height="550" width="400" x="180" y="10" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Se connecter" vertex="1">
@@ -393,7 +393,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;strokeColor=#82b366;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
           <mxGeometry height="410" width="370" x="110" y="10" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Se connecter" vertex="1">
@@ -505,7 +505,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;strokeColor=#82b366;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
           <mxGeometry height="420" width="370" x="120" y="10" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Se connecter" vertex="1">
@@ -603,11 +603,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HaVHgdUSPSFt8yrfVb4x" name="UseCase Réceptionniste">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="774" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;     strokeColor=#000000;fontSize=13;fontStyle=1;verticalAlign=top;     spacingTop=10;strokeColor=#82b366;" value="Système de Gestion Immobilière&#xa;DAARADJI IMMO" vertex="1">
           <mxGeometry height="330" width="440" x="90" y="10" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Se connecter" vertex="1">
